@@ -1,0 +1,13 @@
+
+
+oauth_config:
+  application_id: ""               # Add your Application ID provided when you created an app in the PDN. 
+  application_name:  "HelloWorld"  # The Application Name can be arbitrary, you needn't change it from HelloWorld
+  client_string: "gbtestc"         # For Sandbox Campus, leave clientString as gbtestc.
+  consumer_key: ""                 # For the consumerKey property, set this to the Token Key Moniker provided when you created an app.
+  consumer_secret: ""              # For the consumerSecret property, set this to the Shared Secret provided when you created an app.
+
+oauth2_handler:
+  assertion:
+    username: ""                   # Enter a user's username here, provided when you created an app.
+                                   #  We recommend working with a teacher account, but using a student can demonstrate different permissions.
